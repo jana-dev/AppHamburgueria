@@ -17,5 +17,7 @@
 - ACTION_SENDTO: ação de enviar dados da Intent.
 - setData(): Define os dados da intent.
 
-![Screenshot](app/src/main/res/drawable/hamburgueria1.png)
-![Screenshot](mei2.png)
+![Screenshot](app/src/main/res/drawable/hamburgueria11.png)
+![Screenshot](app/src/main/res/drawable/hamburgueria22.png)
+![Screenshot](app/src/main/res/drawable/hamburgueria33.png)
+![Screenshot](app/src/main/res/drawable/hamburgueria44.png)
