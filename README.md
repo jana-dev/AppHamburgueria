@@ -20,4 +20,4 @@
 ![Screenshot](app/src/main/res/drawable/hamburgueria11.png)
 ![Screenshot](app/src/main/res/drawable/hamburgueria22.png)
 ![Screenshot](app/src/main/res/drawable/hamburgueria33.png)
-![Screenshot](app/src/main/res/drawable/hamburgueria44.png)
+![Screenshot](app/src/main/res/drawable/haburgueria44.png)
