@@ -92,17 +92,17 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Adiciona ouvintes de evento para o botão de confirmar pedido
-        // Além da outra atividade ser iniciada estamos enviando valores para a outra tela
+        // Inicia uma nova intent para abrir a outra tela e passar os valores desta tela para a próxima
         confirmarPedido.setOnClickListener(v -> {
             Intent intent = new Intent(this, ResumoPedido.class);
             intent.putExtra("nomeCliente", nomeCliente.getText().toString());
             intent.putExtra("quantidade", quantidade);
-            intent.putExtra("valorTotal", valorTotal);
             intent.putExtra("addBacon", addBacon.isChecked());
             intent.putExtra("addQueijo", addQueijo.isChecked());
             intent.putExtra("addOnionRings", addOnionRings.isChecked());
             intent.putExtra("addDoritos", addDoritos.isChecked());
             intent.putExtra("addGeleia", addGeleia.isChecked());
+            intent.putExtra("valorTotal", valorTotal * quantidade);
             startActivity(intent);
         });
     }
